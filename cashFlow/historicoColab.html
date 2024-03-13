@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/historicoColab.css" />
+    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <link rel="shotcut icon" href="_img/Logo_CashFlow.png" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <title>Historico</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="home.html"
+          ><img id="logo" src="_img/Logo_CashFlow.png" alt=""
+        /></a>
+      </div>
+      <div id="buttons">
+        <a class="button header" href="home.html">Inicio</a>
+        <a class="button header" href="viagem.html">Viagens</a>
+        <a class="button header" href="colaboradores.html">Colaboradores</a>
+        <div class="dropdown">
+          <button class="dropbtn" onclick="toggleDropdown()">
+            <img src="_img/justify (1).svg" alt="" />
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" class="input-nome" />
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="input-email large-input"
+            />
+          </div>
+          <div class="form-group">
+            <label for="cpf">CPF:</label>
+            <input
+              type="text"
+              id="cpf"
+              name="cpf"
+              class="input-cpf large-input"
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="cargo">Cargo:</label>
+            <input type="text" id="cargo" name="cargo" class="input-cargo" />
+          </div>
+          <div class="form-group">
+            <label for="setor">Setor:</label>
+            <input type="text" id="setor" name="setor" class="input-setor" />
+          </div>
+          <div class="form-group">
+            <label for="telefone">Telefone:</label>
+            <input
+              type="tel"
+              id="telefone"
+              name="telefone"
+              class="input-telefone"
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" class="input-senha" />
+        </div>
+      </form>
+    </div>
+
+    <h3 class="textHistorico">Historico da Viagem</h3>
+    <div class="card historico">
+      <div class="buttons-container">
+        <button>Todas</button>
+        <button>Concluidas</button>
+        <button>Em andamento</button>
+      </div>
+      <div class="entry">
+        <div class="entry-content">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <a href="#" class="info-link">+Info</a>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="entry-content">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <a href="#" class="info-link">+Info</a>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="entry-content">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <a href="#" class="info-link">+Info</a>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="entry-content">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <a href="#" class="info-link">+Info</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="back-button-container">
+      <button class="button_vermelho">Voltar</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/colaboradores.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="shotcut icon" href="_img/Logo_CashFlow.png"> 
+    <title>Colaboradores</title>
+</head>
+<body>
+    <header>
+        <div><a href="home.html"><img id="logo" src="_img/Logo_CashFlow.png" alt=""></a></div>
+        <div id="buttons">
+            <a class="button header" href="home.html">Inicio</a>
+            <a class="button header" href="viagem.html">Viagens</a>
+            <a class="button header" href="colaboradores.html">Colaboradores</a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="toggleDropdown()"><img src="_img/justify (1).svg" alt=""></button>
+                <div class="dropdown-content" id="myDropdown">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+        </div>
+    </header>
+
+    <div class="container1">
+        <h1 id="titulo">Lista de colaboradores</h1>
+
+    </div>
+
+    <div class="container">
+        <div id="lista-colaboradores">
+            <div id="linha1">
+                <a class="button adicionar" href="addColaborador.html">Adicionar</a>
+                <div id="box_pesquisa">
+                    <input type="search" name="pesquisa" id="pesquisa" placeholder="Insira um nome para busca">
+                    <button class="button busca" type="button">Busca</button>
+                </div>
+            </div>
+            <div id="colaborador">
+                <div id="nome-colaborador">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. o, beuident volupt.</p>
+                </div>
+                <div id="opcoes">
+                    <button class="button editar" type="button">Editar</button>
+                    <button class="button_vermelho deletar" type="button">Deletar</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>

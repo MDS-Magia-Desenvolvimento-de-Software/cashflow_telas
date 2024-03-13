@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="js/home.js">
+    <link rel="shotcut icon" href="_img/Logo_CashFlow.png">
+    <title>Cash Flow</title>
+</head>
+<body>
+    <header>
+        <div><a href="home.html"><img id="logo" src="_img/Logo_CashFlow.png" alt=""></a></div>
+        <div id="buttons">
+            <a class="button header" href="home.html">Inicio</a>
+            <a class="button header" href="viagem.html">Viagens</a>
+            <a class="button header" href="colaboradores.html">Colaboradores</a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="toggleDropdown()"><img src="_img/justify (1).svg" alt=""></button>
+                <div class="dropdown-content" id="myDropdown">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+        </div>
+    </header>
+    
+    <section id="conteiners">
+        <div class="conteiner left">
+            <h2 id="txt-left" >Viagens cadastradas</h2>
+            <div id="bottons-left" >
+                <button class="button topo" type="button">Todas</button>
+                <button class="button topo" type="button">Andamento</button>
+                <button class="button topo" type="button">Espera</button>
+                <button class="button topo" type="button">Concluida</button>
+            </div>
+        </div>
+        <div class="conteiner right">
+            <h2 id="txt-right">Colaboradores Cadastrados</h2>
+            <div id="campo-right">
+                <input type="text" id="busca" name="busca" placeholder="Insira um nome para busca">
+                <button class="button busca" type="button">Buscar</button>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

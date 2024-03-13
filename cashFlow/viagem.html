@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/viagem.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="shotcut icon" href="_img/Logo_CashFlow.png">
+    <title>Viagem</title>
+</head>
+<body>
+    <header>
+        <div><a href="home.html"><img id="logo" src="_img/Logo_CashFlow.png" alt=""></a></div>
+        <div id="buttons">
+            <a class="button header" href="home.html">Inicio</a>
+            <a class="button header" href="viagem.html">Viagens</a>
+            <a class="button header" href="colaboradores.html">Colaboradores</a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="toggleDropdown()"><img src="_img/justify (1).svg" alt=""></button>
+                <div class="dropdown-content" id="myDropdown">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+        </div>
+    </header>
+
+    <div class="container1">
+        <div class="box-buttons">
+            <button class="button opcoes" type="button">Todas</button>
+            <button class="button opcoes" type="button">Espera</button>
+            <button class="button opcoes" type="button">Andamento</button>
+            <button class="button opcoes" type="button">Concluida</button>
+        </div>
+        <h1 id="titulo">Lista de viagens</h1>
+
+    </div>
+
+    <div class="container">
+        <div id="linha1">
+            <a class="button adicionar" href="addViagem.html">Adicionar</a>
+            <div class="box_busca">
+                <input type="search" name="pesquisa" class="pesquisa" placeholder="Insira um nome para busca">
+                <button class="button busca" type="button">Busca</button>
+            </div>
+        </div>
+        <div id="lista-viagens">
+            <!-- adicionar viagens atraves do js recebendo requisiçoes-->
+            <div id="viagem">
+                <div id="nome-viagem">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. o, beuident volupt.</p>
+                </div>
+                <div id="box_opcoes">
+                    <button class="button" type="button">Editar</button>
+                    <button class="button_vermelho deletar" type="button">Deletar</button>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+
+</body>
+</html>
